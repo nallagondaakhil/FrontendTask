@@ -6,10 +6,12 @@ declare var $: any;
   styleUrls: ["./about.component.scss"]
 })
 export class AboutComponent implements OnInit {
+
   constructor() {}
   ngAfterViewChecked() {
+
     $(".carousel").carousel({
-      interval: 1000
+      interval: 4000
     });
   }
   ngOnInit() {}

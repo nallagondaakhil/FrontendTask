@@ -44,59 +44,13 @@
   left: 0;
 }
 
-/* 1 */
-.outer-div {
-  height: 100vh;
-  overflow: hidden;
-}
-
-.inner-div {
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  transition: all 0.5s ease;
-  background-image: url("http://www.tipue.com/img/yes.jpg");
-}
-
-.inner-div:hover {
-  transform: scale(1.2);
-}
-
-/* 2 */
-.outer-div {
-  height: 100vh;
-  overflow: hidden;
-}
-
-.inner-div {
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  transition: all 0.5s ease;
-  background-image: url("http://www.tipue.com/img/yes.jpg");
-}
-
-.inner-div:hover {
-  transform: scale(1.2);
-}
-
-/* 3 */
-.outer-div {
-  height: 100vh;
-  overflow: hidden;
-}
-
-.inner-div {
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  transition: all 0.5s ease;
-  background-image: url("http://www.tipue.com/img/yes.jpg");
-}
-
-.inner-div:hover {
-  transform: scale(1.2);
+.item h1 {
+  color: red;
+  position: absolute;
+  font-size: 80px;
+  font-family: "Anton", sans-serif;
+  line-height: 7;
+  text-align: center;
+  right: 0;
+  left: 0;
 }
